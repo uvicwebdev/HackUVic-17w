@@ -1,9 +1,12 @@
 import React, { Component /* , PropTypes */ } from 'react';
+import { Link } from 'react-router';
 import classNames from 'classnames';
 
 import Config from 'Config';
 
 import Icon from 'parts/Icon';
+
+import Logo from 'img/Logos/Logo_Mark_Color.svg';
 
 export default class Footer extends Component {
   static propTypes = {
@@ -26,6 +29,11 @@ export default class Footer extends Component {
     ]);
     return (
       <footer>
+        <div>
+          <Link to="/">
+            <img className="brand" src={Logo} alt="HackUVic Logo" />
+          </Link>
+        </div>
         <p className="made-with hide-xs">Made with <Icon name="heart" /> in Victoria, BC</p>
         <ul className="social">
           {Config.social_links.map((link, i) =>
