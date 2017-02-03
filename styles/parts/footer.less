@@ -1,0 +1,28 @@
+footer {
+  .flex;
+
+  min-width: 100%;
+  max-height: @footer-height;
+  position: fixed;
+  bottom: 0;
+
+  background: @grey-light;
+  color: @grey-mid;
+
+  font-size: @body-font-size - 0.2rem;
+
+  padding: @layout-padding/4 @layout-gutter;
+
+  justify-content: space-between;
+
+  .social {
+    .list-inline;
+    > li {
+      padding: 0;
+    }
+    a {
+      height: 2rem;
+      padding: .1rem .4rem;
+    }
+  }
+}

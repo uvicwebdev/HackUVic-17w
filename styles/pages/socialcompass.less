@@ -1,0 +1,23 @@
+.social-compass {
+  @brand-color: #993333;
+
+  .project-variant(@brand-color);
+
+  .hero {
+    h1{
+      line-height: 0;
+      .made-with {
+        margin: 0 @layout-padding;
+        position: relative;
+        top: -1rem;
+        width: 30%;
+        @media screen and (max-width: @size-md ) {
+          margin: @layout-padding/2 auto;
+          display: block;
+          top: 0;
+          width: 40%;
+        }
+      }
+    }
+  }
+}
