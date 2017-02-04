@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 
 import Config from 'Config';
 
+import Icon from 'parts/Icon';
+
+import Logo from 'img/Logos/Logo_Type_Light.svg';
 import Stars from 'img/Stars.svg';
 
 export default class Home extends Component {
@@ -30,15 +33,15 @@ export default class Home extends Component {
         <div className="hero">
           <div>
             <h1>
-              HackUVic
-              <br />
+              <img src={Logo} alt="HackUVic Logo" />
+              <br /><br />
               <small>
                 March 14th and 15th at the University of Victoria
               </small>
             </h1>
             <br />
-            <button className="btn btn-hero btn-lg">
-              Register right now
+            <button className="btn btn-hero btn-fat">
+              <Icon name="ticket" size={1.3} /> Register in 30 seconds
             </button>
           </div>
         </div>

@@ -1,9 +1,9 @@
 const icons = [
-  'icons/arrow-down.svg',
-  'icons/arrow-down-outline.svg',
   'icons/bookmark.svg',
   'icons/book.svg',
   'icons/briefcase.svg',
+  'icons/code.svg',
+  'icons/code-outline.svg',
   'icons/heart.svg',
   'icons/social-dribbble.svg',
   'icons/social-facebook.svg',
@@ -13,6 +13,7 @@ const icons = [
   'icons/social-stack-exchange.svg',
   'icons/social-steam.svg',
   'icons/social-twitter.svg',
+  'icons/ticket.svg',
   'icons/warning.svg',
 ];
 
