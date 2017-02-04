@@ -58,15 +58,13 @@ export default {
     ],
   },
   lessLoader: {
-    lessPlugins: (() => {
-      if (production) {
-        return [
-          new LessPluginCleanCSS({ advanced: true, keepSpecialComments: 1 }),
-          new LessPluginAutoPrefix({ browsers: ['last 2 versions'] }),
-        ];
-      }
-      return [];
-    })(),
+    lessPlugins: (() => [
+      new LessPluginAutoPrefix({ browsers: ['last 2 versions'] }),
+    ].concat(
+      production ? [
+        new LessPluginCleanCSS({ advanced: true, keepSpecialComments: 1 }),
+      ] : []
+    ))(),
   },
   externals: {
     Config: JSON.stringify(Configuration),
