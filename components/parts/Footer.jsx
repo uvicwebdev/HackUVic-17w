@@ -29,9 +29,9 @@ export default class Footer extends Component {
     ]);
     return (
       <footer>
-        <div>
+        <div className="brand">
           <Link to="/">
-            <img className="brand" src={Logo} alt="HackUVic Logo" />
+            <img src={Logo} alt="HackUVic Logo" />
           </Link>
         </div>
         <p className="made-with hide-xs">Made with <Icon name="heart" /> in Victoria, BC</p>
