@@ -4,8 +4,8 @@
 @html-font-size: 10px;
 @html-line-height: 1.428571429;
 @html-bg: @core-secondary-color;
-@body-bg: linear-gradient(@core-secondary-color, @core-color);
-@body-font-color: @grey-white;
+@body-bg: @grey-white;
+@body-font-color: @grey-dark;
 @body-font-size: 1.4rem;
 // https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/
 @body-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Hiragino Kaku Gothic Pro", Meiryo, "Malgun Gothic", "Helvetica Neue", sans-serif;
@@ -48,7 +48,7 @@
 @core-meta-color: @grey-mid;
 
 @core-link-color: @core-color;
-@core-link-dark-color: @core-color-dark;
+@core-link-dark-color: darken(@core-link-color, 10%);
 
 @core-border-color: @grey-light;
 @core-empty-bg: @grey-light-light;

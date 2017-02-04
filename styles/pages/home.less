@@ -1,22 +1,32 @@
 .home {
-  background-position: center;
-  background-repeat: repeat;
-  background-size: contain;
+  background: linear-gradient(@core-secondary-color, @core-color);
 
-  position: relative;
-  mix-blend-mode: hard-light;
+  .content {
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
 
-  &:after {
-    position: absolute;
-    content: "";
-    left: 0px;
-    top: 0px;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    background: linear-gradient(transparent, gray);
+    position: relative;
+    mix-blend-mode: hard-light;
+
+    &:after {
+      position: absolute;
+      content: "";
+      left: 0px;
+      top: 0px;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      background: linear-gradient(transparent, gray);
+    }
   }
 
+
+  color: @grey-white;
+
+  a {
+    color:  @grey-white;
+  }
 
   #mlh-trust-badge {
     display:block;
@@ -45,7 +55,7 @@
       font-size: 45%;
     }
 
-    // Button Primary
+    // Button Hero
     .btn.btn-hero {
       background: @grey-light;
       border-color: darken(@grey-light, 5%);
