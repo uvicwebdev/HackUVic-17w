@@ -6,6 +6,7 @@ import Icon from 'parts/Icon';
 
 import Logo from 'img/Logos/Logo_Type_Light.svg';
 import Stars from 'img/Stars.svg';
+import MLHBadge from 'img/mlh-badge.svg';
 
 import About from 'sections/About';
 import Resources from 'sections/Resources';
@@ -32,7 +33,7 @@ export default class Home extends Component {
       <div className="home">
         <main className="content" style={{ backgroundImage: `url(${Stars})` }}>
           <a id="mlh-trust-badge" href="https://mlh.io/seasons/na-2017/events?utm_source=na-2017&utm_medium=TrustBadge&utm_campaign=na-2017&utm_content=white" target="_blank" rel="noopener noreferrer">
-            <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg" alt="Major League Hacking 2017 Hackathon Season" />
+            <img src={MLHBadge} alt="Major League Hacking 2017 Hackathon Season" />
           </a>
           <div className="hero">
             <div>
