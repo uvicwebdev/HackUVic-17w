@@ -12,6 +12,7 @@ import About from 'sections/About';
 import Resources from 'sections/Resources';
 import Judging from 'sections/Judging';
 import Prizes from 'sections/Prizes';
+import FAQ from 'sections/FAQ';
 
 export default class Home extends Component {
   // static propTypes = {
@@ -57,6 +58,7 @@ export default class Home extends Component {
           <Resources />
           <Judging />
           <Prizes />
+          <FAQ />
         </main>
       </div>
     );
