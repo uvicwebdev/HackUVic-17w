@@ -1,7 +1,9 @@
 const icons = [
+  /* General */
   'icons/bookmark.svg',
   'icons/book.svg',
   'icons/briefcase.svg',
+  'icons/brush.svg',
   'icons/chart-area.svg',
   'icons/chart-line.svg',
   'icons/chart-pie.svg',
@@ -13,6 +15,8 @@ const icons = [
   'icons/heart.svg',
   'icons/link.svg',
   'icons/link-outline.svg',
+  'icons/messages.svg',
+  'icons/pen.svg',
   'icons/social-dribbble.svg',
   'icons/social-facebook.svg',
   'icons/social-facebook-messenger.svg',
@@ -23,6 +27,10 @@ const icons = [
   'icons/social-twitter.svg',
   'icons/ticket.svg',
   'icons/warning.svg',
+  /* Prizes */
+  'icons/first-place.svg',
+  'icons/second-place.svg',
+  'icons/third-place.svg',
 ];
 
 module.exports = {

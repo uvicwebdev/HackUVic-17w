@@ -11,6 +11,7 @@ import MLHBadge from 'img/mlh-badge.svg';
 import About from 'sections/About';
 import Resources from 'sections/Resources';
 import Judging from 'sections/Judging';
+import Prizes from 'sections/Prizes';
 
 export default class Home extends Component {
   // static propTypes = {
@@ -55,6 +56,7 @@ export default class Home extends Component {
           <About />
           <Resources />
           <Judging />
+          <Prizes />
         </main>
       </div>
     );
