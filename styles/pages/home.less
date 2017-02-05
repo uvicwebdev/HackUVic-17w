@@ -1,5 +1,5 @@
 .home {
-  background: linear-gradient(@core-secondary-color, @core-color);
+  background: linear-gradient(darken(@core-secondary-color, 20%), darken(@core-color, 5%));
 
   .content {
     background-position: center;
@@ -24,8 +24,24 @@
 
   color: @grey-white;
 
-  a {
-    color:  @grey-white;
+  p, li {
+     & > a {
+      color: mix(@grey-white, @core-color, 80%);
+      &:hover {
+        color: mix(@grey-white, @core-color, 60%);
+      }
+    }
+  }
+
+
+
+  .btn {
+    &.btn-link {
+      color: @grey-white;
+      &:hover {
+        color: @core-link-color;
+      }
+    }
   }
 
   #mlh-trust-badge {

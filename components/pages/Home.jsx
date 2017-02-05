@@ -8,6 +8,7 @@ import Logo from 'img/Logos/Logo_Type_Light.svg';
 import Stars from 'img/Stars.svg';
 
 import About from 'sections/About';
+import Resources from 'sections/Resources';
 
 export default class Home extends Component {
   // static propTypes = {
@@ -50,6 +51,7 @@ export default class Home extends Component {
           </div>
           {/* Sections */}
           <About />
+          <Resources />
         </main>
       </div>
     );

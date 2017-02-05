@@ -13,7 +13,7 @@ export default class About extends Component {
 
   render() {
     return (
-      <section id="guidelines">
+      <section id="about">
         <div className="container">
           <div className="columns cols-md">
             <div className="column col-12">

@@ -22,9 +22,10 @@ body {
 }
 a {
   color: @core-link-color;
-  text-decoration: underline;
+  text-decoration: none;
   &:focus,
   &:hover {
+    text-decoration: underline;
     color: darken(@core-link-color, 25%);
   }
 }
