@@ -9,6 +9,7 @@ const icons = [
   'icons/chart-pie.svg',
   'icons/code.svg',
   'icons/code-outline.svg',
+  'icons/download.svg',
   'icons/eject.svg',
   'icons/export.svg',
   'icons/external-link.svg',

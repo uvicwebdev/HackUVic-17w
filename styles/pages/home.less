@@ -36,6 +36,33 @@
 
 
   .btn {
+    background: @grey-light;
+    border-color: darken(@grey-light, 5%);
+    color: @core-secondary-color;
+    &:focus {
+      background: darken(@grey-light, 4%);
+      border-color: darken(@grey-light, 10%);
+      color: @core-secondary-color;
+    }
+    &:hover {
+      background: darken(@grey-light, 6%);
+      border-color: darken(@grey-light, 15%);
+      color: @core-secondary-color;
+    }
+    &:active,
+    &.active {
+      background: darken(@grey-light, 8%);
+      border-color: darken(@grey-light, 15%);
+      color: @core-secondary-color;
+    }
+    &.loading {
+      &::after {
+        border-color: @core-color;
+        border-right-color: transparent;
+        border-top-color: transparent;
+      }
+    }
+
     &.btn-link {
       color: @grey-white;
       &:hover {
@@ -71,34 +98,5 @@
       font-size: 45%;
     }
 
-    // Button Hero
-    .btn.btn-hero {
-      background: @grey-light;
-      border-color: darken(@grey-light, 5%);
-      color: @core-secondary-color;
-      &:focus {
-        background: darken(@grey-light, 4%);
-        border-color: darken(@grey-light, 10%);
-        color: @core-secondary-color;
-      }
-      &:hover {
-        background: darken(@grey-light, 6%);
-        border-color: darken(@grey-light, 15%);
-        color: @core-secondary-color;
-      }
-      &:active,
-      &.active {
-        background: darken(@grey-light, 8%);
-        border-color: darken(@grey-light, 15%);
-        color: @core-secondary-color;
-      }
-      &.loading {
-        &::after {
-          border-color: @core-color;
-          border-right-color: transparent;
-          border-top-color: transparent;
-        }
-      }
-    }
   }
 }

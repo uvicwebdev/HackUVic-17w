@@ -13,6 +13,7 @@ import Resources from 'sections/Resources';
 import Judging from 'sections/Judging';
 import Prizes from 'sections/Prizes';
 import FAQ from 'sections/FAQ';
+import Sponsors from 'sections/Sponsors';
 
 export default class Home extends Component {
   // static propTypes = {
@@ -59,6 +60,7 @@ export default class Home extends Component {
           <Judging />
           <Prizes />
           <FAQ />
+          <Sponsors />
         </main>
       </div>
     );
