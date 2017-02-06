@@ -22,7 +22,7 @@ git config user.name "Travis CI"
 git config user.email "travis.ci.build@gmail.com"
 
 # commit any new changes
-git add --all
+git add -A
 git commit -m "Travis CI - Deployed ${LAST_COMMIT} with Webpack"
 
 # push to the repo
