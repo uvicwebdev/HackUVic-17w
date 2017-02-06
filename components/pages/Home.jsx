@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Icon from 'parts/Icon';
 
 import Logo from 'img/Logos/Logo_Type_Light.svg';
-import Stars from 'img/Stars.svg';
+import Stars from 'img/stars.svg';
 import MLHBadge from 'img/mlh-badge.svg';
 
 import About from 'sections/About';
