@@ -62,7 +62,7 @@ export default class Resources extends Component {
                   <div key={index}>
                     <dt>
                       {tool.title}
-                      &nbsp;
+                      &nbsp;&nbsp;
                       <a className="btn btn-sm" href={tool.href} target="_blank" rel="noopener noreferrer">
                         <Icon name="external-link" /> Open
                       </a>
@@ -79,7 +79,7 @@ export default class Resources extends Component {
                   <div key={index}>
                     <dt>
                       {dataset.title}
-                      &nbsp;
+                      &nbsp;&nbsp;
                       <a className="btn btn-sm" href={dataset.href} target="_blank" rel="noopener noreferrer">
                         <Icon name="chart-pie" /> View Dataset
                       </a>
