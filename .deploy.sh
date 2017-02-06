@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e # exit with nonzero exit code if anything fails
+set -ex # exit with nonzero exit code if anything fails
 
 LAST_COMMIT="$(git rev-parse --short HEAD)"
 
@@ -13,7 +13,7 @@ cd ../
 # build the site
 npm run build
 
-cp -vr *.html CNAME dist site/
+cp -vr *.html dist site/
 
 cd site/
 
