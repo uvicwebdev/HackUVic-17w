@@ -20,7 +20,7 @@ export default {
   output: {
     path: `${__dirname}/dist`,
     filename: 'bundle.js',
-    publicPath: '/HackUVic/dist/',
+    publicPath: '/dist/',
   },
   module: {
     loaders: [
