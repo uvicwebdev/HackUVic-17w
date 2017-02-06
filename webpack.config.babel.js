@@ -111,6 +111,7 @@ export default {
       inlineManifestWebpackName: 'webpackManifest',
       scripts: [
         '/dist/page.js',
+        '/dist/typeform.js',
       ],
     }),
   ].concat(

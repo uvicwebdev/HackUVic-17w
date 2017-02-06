@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import Config from 'Config';
-
 import Icon from 'parts/Icon';
 
 import Logo from 'img/Logos/Logo_Type_Light.svg';
@@ -29,10 +27,6 @@ export default class Home extends Component {
   // static defaultProps = {
   // }
 
-  openChat = () => {
-    window.open(Config.chat_url, 'newwindow', 'width=500, height=600'); return false;
-  }
-
   render() {
     return (
       <div className="home">
@@ -50,9 +44,9 @@ export default class Home extends Component {
                 </small>
               </h1>
               <br />
-              <button className="btn btn-hero btn-fat">
+              <a className="btn btn-hero btn-fat typeform-share" href="https://hackuvic.typeform.com/to/XCRqga" data-mode="1" target="_blank" rel="noopener noreferrer">
                 <Icon name="ticket" size={1.3} /> Register in 30 seconds
-              </button>
+              </a>
             </div>
           </div>
           {/* Sections */}

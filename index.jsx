@@ -19,6 +19,7 @@ import ExampleComponent from 'pages/ExampleComponent';
 import ExampleTwoDeepComponent from 'pages/ExampleTwoDeepComponent';
 
 import 'file-loader?name=page.js!page.js';
+import 'file-loader?name=typeform.js!typeform.js';
 import 'styles/styles.less';
 import 'font/hackicon.font';
 
