@@ -4,6 +4,8 @@ import Icon from 'parts/Icon';
 
 import mlhLogo from 'img/Sponsors/mlh-logo.svg';
 
+import sponsorPackage from 'docs/HackUVic2017-Sponsorship.pdf';
+
 export default class Resources extends Component {
   static propTypes = {
     children: PropTypes.element,
@@ -54,8 +56,8 @@ export default class Resources extends Component {
                 <div className="text-center">
                   <h4>Want your logo up here?</h4>
                   <br />
-                  <a className="btn btn-fat">
-                    <Icon name="download" size={1.3} /> Download the sponsorship package
+                  <a className="btn btn-fat" href={sponsorPackage} target="_blank" rel="noopener noreferrer">
+                    <Icon name="gift" size={1.3} /> Get the sponsorship package
                   </a>
                 </div>
               </div>

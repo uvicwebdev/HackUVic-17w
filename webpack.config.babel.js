@@ -44,6 +44,12 @@ export default {
         ],
       },
       {
+        test: /\.(pdf)$/i,
+        loaders: [
+          'file?name=[name].[ext]',
+        ],
+      },
+      {
         test: /\.font\.?(js|json)$/,
         loader: ExtractTextPlugin.extract(
           'css?sourceMap!' +
