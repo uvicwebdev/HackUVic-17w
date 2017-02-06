@@ -21,10 +21,18 @@
       "icon": "social-facebook"
     },
     {
+      "href": "#",
+      "tooltip": "RSVP on Facebook",
+      "icon": "calendar"
+    },
+    {
       "href": "http://github.com/UVicWebDev",
       "tooltip": "Star us",
       "icon": "social-github"
     }
   ],
-  "chat_url": "http://m.me/UVicWebDev"
+  "contact": {
+    "chat_url": "http://m.me/UVicWebDev",
+    "email": "hello@hackuvic.com"
+  }
 }
