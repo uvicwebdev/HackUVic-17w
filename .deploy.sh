@@ -13,7 +13,7 @@ cd ../
 # build the site
 npm run build
 
-cp -vr *.html dist site/
+cp -vr *.html CNAME dist site/
 
 cd site/
 
