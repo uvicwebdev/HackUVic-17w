@@ -2,6 +2,7 @@ import React, { Component, PropTypes } from 'react';
 
 import Icon from 'parts/Icon';
 
+import echosecLogo from 'img/Sponsors/echosec-logo.svg';
 import mlhLogo from 'img/Sponsors/mlh-logo.svg';
 
 import sponsorPackage from 'docs/HackUVic2017-Sponsorship.pdf';
@@ -24,11 +25,31 @@ export default class Resources extends Component {
         orgs: [
           {
             title: 'Major League Hacking',
-            href: '#',
+            href: 'https://mlh.io/',
             image: mlhLogo,
           },
         ],
       },
+      {
+        title: 'Gold Sponsors',
+        orgs: [
+          {
+            title: 'Echosec',
+            href: 'https://www.echosec.net/',
+            image: echosecLogo,
+          },
+        ],
+      },
+      // {
+      //   title: 'Silver Sponsors',
+      //   orgs: [
+      //     {
+      //       title: 'Launchaco',
+      //       href: 'https://www.echosec.net/',
+      //       image: echosecLogo,
+      //     },
+      //   ],
+      // },
     ];
     return (
       <section id="resources">
