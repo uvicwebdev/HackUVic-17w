@@ -8,7 +8,7 @@ import mlhLogo from 'img/Sponsors/mlh-logo.svg';
 
 import sponsorPackage from 'docs/HackUVic2017-Sponsorship.pdf';
 
-export default class Resources extends Component {
+export default class Sponsors extends Component {
   static propTypes = {
     children: PropTypes.element,
   };
@@ -53,7 +53,7 @@ export default class Resources extends Component {
       },
     ];
     return (
-      <section id="resources">
+      <section id="sponsors">
         <div className="container">
           <div className="columns cols-md">
             <div className="column col-12">
