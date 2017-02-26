@@ -3,6 +3,7 @@ import React, { Component, PropTypes } from 'react';
 import Icon from 'parts/Icon';
 
 import echosecLogo from 'img/Sponsors/echosec-logo.svg';
+import launchacoLogo from 'img/Sponsors/launchaco-logo.svg';
 import mlhLogo from 'img/Sponsors/mlh-logo.svg';
 
 import sponsorPackage from 'docs/HackUVic2017-Sponsorship.pdf';
@@ -40,16 +41,16 @@ export default class Resources extends Component {
           },
         ],
       },
-      // {
-      //   title: 'Silver Sponsors',
-      //   orgs: [
-      //     {
-      //       title: 'Launchaco',
-      //       href: 'https://www.echosec.net/',
-      //       image: echosecLogo,
-      //     },
-      //   ],
-      // },
+      {
+        title: 'Silver Sponsors',
+        orgs: [
+          {
+            title: 'Launchaco',
+            href: 'http://launchaco.com/',
+            image: launchacoLogo,
+          },
+        ],
+      },
     ];
     return (
       <section id="resources">
