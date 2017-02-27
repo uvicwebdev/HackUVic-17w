@@ -70,7 +70,7 @@ export default class Sponsors extends Component {
                 <h3 className="text-center">{section.title}</h3>
                 <div className="columns col-center">
                   { section.orgs.map((org) =>
-                    <div key={org.title} className="column col-sm-12 col-4">
+                    <div key={org.title} className="column col-sm-12 col-4 flex-align-center">
                       <a href={org.href} target="_blank" rel="noopener noreferrer">
                         <img src={org.image} alt={org.title} />
                       </a>
