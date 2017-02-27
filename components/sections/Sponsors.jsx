@@ -5,6 +5,7 @@ import Icon from 'parts/Icon';
 import echosecLogo from 'img/Sponsors/echosec-logo.svg';
 import launchacoLogo from 'img/Sponsors/launchaco-logo.svg';
 import mlhLogo from 'img/Sponsors/mlh-logo.svg';
+import uvicLogo from 'img/Sponsors/uvic-logo.svg';
 
 import sponsorPackage from 'docs/HackUVic2017-Sponsorship.pdf';
 
@@ -38,6 +39,11 @@ export default class Sponsors extends Component {
             title: 'Echosec',
             href: 'https://www.echosec.net/',
             image: echosecLogo,
+          },
+          {
+            title: 'University of Victoria',
+            href: 'https://www.uvic.ca/',
+            image: uvicLogo,
           },
         ],
       },
