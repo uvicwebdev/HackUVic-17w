@@ -5,6 +5,7 @@ import Icon from 'parts/Icon';
 import echosecLogo from 'img/Sponsors/echosec-logo.svg';
 import launchacoLogo from 'img/Sponsors/launchaco-logo.svg';
 import mlhLogo from 'img/Sponsors/mlh-logo.svg';
+import stemboltLogo from 'img/Sponsors/stembolt-logo.svg';
 import uvicLogo from 'img/Sponsors/uvic-logo.svg';
 import viatecLogo from 'img/Sponsors/viatec-logo.svg';
 
@@ -60,6 +61,11 @@ export default class Sponsors extends Component {
             title: 'Launchaco',
             href: 'http://launchaco.com/',
             image: launchacoLogo,
+          },
+          {
+            title: 'Stembolt',
+            href: 'https://stembolt.com/',
+            image: stemboltLogo,
           },
         ],
       },
