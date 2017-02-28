@@ -6,6 +6,7 @@ import echosecLogo from 'img/Sponsors/echosec-logo.svg';
 import launchacoLogo from 'img/Sponsors/launchaco-logo.svg';
 import mlhLogo from 'img/Sponsors/mlh-logo.svg';
 import uvicLogo from 'img/Sponsors/uvic-logo.svg';
+import viatecLogo from 'img/Sponsors/viatec-logo.svg';
 
 import sponsorPackage from 'docs/HackUVic2017-Sponsorship.pdf';
 
@@ -26,9 +27,9 @@ export default class Sponsors extends Component {
         title: 'Powered by',
         orgs: [
           {
-            title: 'Major League Hacking',
-            href: 'https://mlh.io/',
-            image: mlhLogo,
+            title: 'Viatec',
+            href: 'http://www.viatec.ca/',
+            image: viatecLogo,
           },
         ],
       },
@@ -44,6 +45,11 @@ export default class Sponsors extends Component {
             title: 'University of Victoria',
             href: 'https://www.uvic.ca/',
             image: uvicLogo,
+          },
+          {
+            title: 'Major League Hacking',
+            href: 'https://mlh.io/',
+            image: mlhLogo,
           },
         ],
       },
@@ -68,9 +74,9 @@ export default class Sponsors extends Component {
             { sponsors.map((section) =>
               <div key={section.title} className="column col-12">
                 <h3 className="text-center">{section.title}</h3>
-                <div className="columns col-center">
+                <div className="columns col-center flex-align-center">
                   { section.orgs.map((org) =>
-                    <div key={org.title} className="column col-sm-12 col-4 flex-align-center">
+                    <div key={org.title} className="column col-sm-12 col-4">
                       <a href={org.href} target="_blank" rel="noopener noreferrer">
                         <img src={org.image} alt={org.title} />
                       </a>
