@@ -3,6 +3,7 @@ import React, { Component, PropTypes } from 'react';
 import Icon from 'parts/Icon';
 
 import echosecLogo from 'img/Sponsors/echosec-logo.svg';
+import githubLogo from 'img/Sponsors/github-logo.svg';
 import launchacoLogo from 'img/Sponsors/launchaco-logo.svg';
 import mlhLogo from 'img/Sponsors/mlh-logo.svg';
 import stemboltLogo from 'img/Sponsors/stembolt-logo.svg';
@@ -43,14 +44,9 @@ export default class Sponsors extends Component {
             image: echosecLogo,
           },
           {
-            title: 'University of Victoria',
-            href: 'https://www.uvic.ca/',
-            image: uvicLogo,
-          },
-          {
-            title: 'Major League Hacking',
-            href: 'https://mlh.io/',
-            image: mlhLogo,
+            title: 'GitHub',
+            href: 'https://www.github.com/',
+            image: githubLogo,
           },
         ],
       },
@@ -66,6 +62,21 @@ export default class Sponsors extends Component {
             title: 'Stembolt',
             href: 'https://stembolt.com/',
             image: stemboltLogo,
+          },
+        ],
+      },
+      {
+        title: 'Partners',
+        orgs: [
+          {
+            title: 'University of Victoria',
+            href: 'https://www.uvic.ca/',
+            image: uvicLogo,
+          },
+          {
+            title: 'Major League Hacking',
+            href: 'https://mlh.io/',
+            image: mlhLogo,
           },
         ],
       },
