@@ -6,6 +6,7 @@ import echosecLogo from 'img/Sponsors/echosec-logo.svg';
 import githubLogo from 'img/Sponsors/github-logo.svg';
 import launchacoLogo from 'img/Sponsors/launchaco-logo.svg';
 import mlhLogo from 'img/Sponsors/mlh-logo.svg';
+import sendwithusLogo from 'img/Sponsors/sendwithus-logo.svg';
 import stemboltLogo from 'img/Sponsors/stembolt-logo.svg';
 import uvicLogo from 'img/Sponsors/uvic-logo.svg';
 import viatecLogo from 'img/Sponsors/viatec-logo.svg';
@@ -39,14 +40,19 @@ export default class Sponsors extends Component {
         title: 'Gold Sponsors',
         orgs: [
           {
-            title: 'Echosec',
-            href: 'https://www.echosec.net/',
-            image: echosecLogo,
+            title: 'SendWithUs',
+            href: 'https://www.sendwithus.com/',
+            image: sendwithusLogo,
           },
           {
             title: 'GitHub',
             href: 'https://www.github.com/',
             image: githubLogo,
+          },
+          {
+            title: 'Echosec',
+            href: 'https://www.echosec.net/',
+            image: echosecLogo,
           },
         ],
       },
