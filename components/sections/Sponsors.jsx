@@ -7,6 +7,7 @@ import githubLogo from 'img/Sponsors/github-logo.svg';
 import launchacoLogo from 'img/Sponsors/launchaco-logo.svg';
 import mlhLogo from 'img/Sponsors/mlh-logo.svg';
 import sendwithusLogo from 'img/Sponsors/sendwithus-logo.svg';
+import starfishLogo from 'img/Sponsors/starfish-logo.svg';
 import stemboltLogo from 'img/Sponsors/stembolt-logo.svg';
 import uvicLogo from 'img/Sponsors/uvic-logo.svg';
 import viatecLogo from 'img/Sponsors/viatec-logo.svg';
@@ -53,6 +54,11 @@ export default class Sponsors extends Component {
             title: 'Echosec',
             href: 'https://www.echosec.net/',
             image: echosecLogo,
+          },
+          {
+            title: 'Starfish Medical',
+            href: 'http://starfishmedical.com/',
+            image: starfishLogo,
           },
         ],
       },
