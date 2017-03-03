@@ -2,10 +2,12 @@ import React, { Component, PropTypes } from 'react';
 
 import Icon from 'parts/Icon';
 
+import checkfrontLogo from 'img/Sponsors/checkfront-logo.svg';
 import echosecLogo from 'img/Sponsors/echosec-logo.svg';
 import githubLogo from 'img/Sponsors/github-logo.svg';
 import launchacoLogo from 'img/Sponsors/launchaco-logo.svg';
 import mlhLogo from 'img/Sponsors/mlh-logo.svg';
+import referralLogo from 'img/Sponsors/referral-logo.svg';
 import sendwithusLogo from 'img/Sponsors/sendwithus-logo.svg';
 import starfishLogo from 'img/Sponsors/starfish-logo.svg';
 import stemboltLogo from 'img/Sponsors/stembolt-logo.svg';
@@ -41,14 +43,19 @@ export default class Sponsors extends Component {
         title: 'Gold Sponsors',
         orgs: [
           {
-            title: 'SendWithUs',
-            href: 'https://www.sendwithus.com/',
-            image: sendwithusLogo,
+            title: 'Referral Saasquatch',
+            href: 'https://www.referralsaasquatch.com/',
+            image: referralLogo,
           },
           {
             title: 'GitHub',
             href: 'https://www.github.com/',
             image: githubLogo,
+          },
+          {
+            title: 'SendWithUs',
+            href: 'https://www.sendwithus.com/',
+            image: sendwithusLogo,
           },
           {
             title: 'Echosec',
@@ -66,14 +73,19 @@ export default class Sponsors extends Component {
         title: 'Silver Sponsors',
         orgs: [
           {
+            title: 'Stembolt',
+            href: 'https://stembolt.com/',
+            image: stemboltLogo,
+          },
+          {
             title: 'Launchaco',
             href: 'http://launchaco.com/',
             image: launchacoLogo,
           },
           {
-            title: 'Stembolt',
-            href: 'https://stembolt.com/',
-            image: stemboltLogo,
+            title: 'Checkfront',
+            href: 'https://www.checkfront.com/',
+            image: checkfrontLogo,
           },
         ],
       },
