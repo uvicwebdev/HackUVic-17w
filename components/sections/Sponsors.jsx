@@ -55,11 +55,6 @@ export default class Sponsors extends Component {
             href: 'https://www.github.com/',
             image: githubLogo,
           },
-          {
-            title: 'Freshworks',
-            href: 'https://freshworks.io/',
-            image: freshworksLogo,
-          },
         ],
       },
       {
@@ -89,6 +84,11 @@ export default class Sponsors extends Component {
             title: 'Starfish Medical',
             href: 'http://starfishmedical.com/',
             image: starfishLogo,
+          },
+          {
+            title: 'Freshworks',
+            href: 'https://freshworks.io/',
+            image: freshworksLogo,
           },
         ],
       },
