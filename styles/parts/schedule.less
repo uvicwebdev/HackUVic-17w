@@ -1,0 +1,35 @@
+.schedule {
+  .slot {
+    display: flex;
+    flex-wrap: nowrap;
+
+    border: solid .1rem @core-light-color;
+    border-radius: @border-radius;
+
+    margin-bottom: @layout-margin/2;
+
+    .time, .event {
+      padding: @layout-padding/2;
+    }
+
+    .time {
+      flex: none;
+      width: 9rem;
+
+      background-color: @core-light-color;
+      color: @core-secondary-color;
+      border-right: solid .1rem @core-light-color;
+
+      text-align: right;
+      font-weight: bold;
+    }
+
+    .event {
+      flex: 1 0 0;
+
+      .title {
+        font-weight: bold;
+      }
+    }
+  }
+}

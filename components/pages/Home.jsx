@@ -7,7 +7,7 @@ import Stars from 'img/stars.svg';
 import MLHBadge from 'img/mlh-badge.svg';
 
 import About from 'sections/About';
-import Resources from 'sections/Resources';
+import Schedule from 'sections/Schedule';
 import Judging from 'sections/Judging';
 import Prizes from 'sections/Prizes';
 import FAQ from 'sections/FAQ';
@@ -51,7 +51,7 @@ export default class Home extends Component {
           </div>
           {/* Sections */}
           <About />
-          <Resources />
+          <Schedule />
           <Judging />
           <Prizes />
           <FAQ />
