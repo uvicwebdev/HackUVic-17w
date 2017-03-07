@@ -4,7 +4,10 @@ import Icon from 'parts/Icon';
 
 import checkfrontLogo from 'img/Sponsors/checkfront-logo.svg';
 import echosecLogo from 'img/Sponsors/echosec-logo.svg';
+import freshworksLogo from 'img/Sponsors/freshworks-logo.svg';
 import githubLogo from 'img/Sponsors/github-logo.svg';
+import hootsuiteLogo from 'img/Sponsors/hootsuite-logo.svg';
+import latitudeLogo from 'img/Sponsors/latitude-logo.svg';
 import launchacoLogo from 'img/Sponsors/launchaco-logo.svg';
 import mlhLogo from 'img/Sponsors/mlh-logo.svg';
 import referralLogo from 'img/Sponsors/referral-logo.svg';
@@ -40,7 +43,7 @@ export default class Sponsors extends Component {
         ],
       },
       {
-        title: 'Gold Sponsors',
+        title: 'Platinum Sponsors',
         orgs: [
           {
             title: 'Referral Saasquatch',
@@ -51,6 +54,26 @@ export default class Sponsors extends Component {
             title: 'GitHub',
             href: 'https://www.github.com/',
             image: githubLogo,
+          },
+          {
+            title: 'Freshworks',
+            href: 'https://freshworks.io/',
+            image: freshworksLogo,
+          },
+        ],
+      },
+      {
+        title: 'Gold Sponsors',
+        orgs: [
+          {
+            title: 'Latitude Geographics',
+            href: 'http://www.latitudegeo.com/',
+            image: latitudeLogo,
+          },
+          {
+            title: 'Hootesuite',
+            href: 'https://hootsuite.com/',
+            image: hootsuiteLogo,
           },
           {
             title: 'SendWithUs',
