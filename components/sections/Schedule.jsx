@@ -160,7 +160,8 @@ export default class Schedule extends Component {
                       <div className="time">{t.format('h:mm A')}</div>
                       { slot.events.map((event) =>
                         <div key={event.title} className="event">
-                          <span className="title">{event.title}</span>&nbsp;
+                          <span className="title">{event.title}</span>
+                          &nbsp;<br className="hide-sm" />
                           { event.location ? <span className="location">({event.location})</span> : null }
                         </div>
                       )}
