@@ -18,7 +18,6 @@
 
       background-color: @core-light-color;
       color: @core-secondary-color;
-      border-right: solid .1rem @core-light-color;
 
       text-align: right;
       font-weight: bold;
@@ -29,6 +28,23 @@
 
       .title {
         font-weight: bold;
+      }
+    }
+
+    &:hover {
+      background: fade(@core-light-color, 10%)
+    }
+
+    &.active {
+      border-width: .3rem;
+    }
+
+    &.disabled,
+    &:disabled {
+      border-color: darken(@core-light-color, 25%);
+      color: darken(@core-light-color, 25%);
+      .time {
+        background-color: darken(@core-light-color, 25%);
       }
     }
   }

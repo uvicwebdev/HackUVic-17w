@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 
-import Icon from 'parts/Icon';
+import classNames from 'classnames';
+import moment from 'moment';
 
 export default class Schedule extends Component {
   static propTypes = {
@@ -16,8 +17,7 @@ export default class Schedule extends Component {
   render() {
     const schedule = [
       {
-        day: 'Saturday',
-        time: ' 9:00 AM',
+        time: '2017-03-11 09:00',
         events: [
           {
             title: 'Check in',
@@ -26,8 +26,7 @@ export default class Schedule extends Component {
         ],
       },
       {
-        day: 'Saturday',
-        time: '10:00 AM',
+        time: '2017-03-11 10:00',
         events: [
           {
             title: 'Opening Ceremonies',
@@ -35,10 +34,9 @@ export default class Schedule extends Component {
           },
         ],
       },
-      { day: 'Saturday', time: ' 11:00 AM', events: [] },
+      { time: '2017-03-11 11:00', events: [] },
       {
-        day: 'Saturday',
-        time: '12:00 PM',
+        time: '2017-03-11 12:00',
         events: [
           {
             title: 'Lunch',
@@ -46,13 +44,12 @@ export default class Schedule extends Component {
           },
           {
             title: 'Hacking Starts',
-            location: 'ECS',
           },
         ],
       },
+      { time: '2017-03-11 12:00', events: [] },
       {
-        day: 'Saturday',
-        time: ' 1:00 PM',
+        time: '2017-03-11 13:00',
         events: [
           {
             title: 'Hackthon 101',
@@ -64,10 +61,9 @@ export default class Schedule extends Component {
           },
         ],
       },
-      { day: 'Saturday', time: ' 2:00 PM', events: [] },
+      { time: '2017-03-11 14:00', events: [] },
       {
-        day: 'Saturday',
-        time: ' 3:00 PM',
+        time: '2017-03-11 15:00',
         events: [
           {
             title: 'Git Workshop',
@@ -75,10 +71,9 @@ export default class Schedule extends Component {
           },
         ],
       },
-      { day: 'Saturday', time: ' 4:00 PM', events: [] },
+      { time: '2017-03-11 16:00', events: [] },
       {
-        day: 'Saturday',
-        time: ' 5:00 PM',
+        time: '2017-03-11 17:00',
         events: [
           {
             title: 'Android and iOS Workshop',
@@ -86,10 +81,9 @@ export default class Schedule extends Component {
           },
         ],
       },
-      { day: 'Saturday', time: ' 6:00 PM', events: [] },
+      { time: '2017-03-11 18:00', events: [] },
       {
-        day: 'Saturday',
-        time: ' 7:00 PM',
+        time: '2017-03-11 19:00',
         events: [
           {
             title: 'Dinner',
@@ -97,13 +91,12 @@ export default class Schedule extends Component {
           },
         ],
       },
-      { day: 'Saturday', time: ' 8:00 PM', events: [] },
-      { day: 'Saturday', time: ' 9:00 PM', events: [] },
-      { day: 'Saturday', time: '10:00 PM', events: [] },
-      { day: 'Saturday', time: '11:00 PM', events: [] },
+      { time: '2017-03-11 20:00', events: [] },
+      { time: '2017-03-11 21:00', events: [] },
+      { time: '2017-03-11 22:00', events: [] },
+      { time: '2017-03-11 23:00', events: [] },
       {
-        day: 'Sunday',
-        time: ' 12:00 AM',
+        time: '2017-03-12 00:00',
         events: [
           {
             title: 'Midnight Snack',
@@ -111,10 +104,9 @@ export default class Schedule extends Component {
           },
         ],
       },
-      { day: 'Sunday', time: ' 1:00 AM', events: [] },
+      { time: '2017-03-12 01:00', events: [] },
       {
-        day: 'Sunday',
-        time: ' 2:00 AM',
+        time: '2017-03-12 02:00',
         events: [
           {
             title: 'Cup Stacking',
@@ -122,15 +114,14 @@ export default class Schedule extends Component {
           },
         ],
       },
-      { day: 'Sunday', time: ' 3:00 AM', events: [] },
-      { day: 'Sunday', time: ' 4:00 AM', events: [] },
-      { day: 'Sunday', time: ' 5:00 AM', events: [] },
-      { day: 'Sunday', time: ' 6:00 AM', events: [] },
-      { day: 'Sunday', time: ' 7:00 AM', events: [] },
-      { day: 'Sunday', time: ' 8:00 AM', events: [] },
+      { time: '2017-03-12 03:00', events: [] },
+      { time: '2017-03-12 04:00', events: [] },
+      { time: '2017-03-12 05:00', events: [] },
+      { time: '2017-03-12 06:00', events: [] },
+      { time: '2017-03-12 07:00', events: [] },
+      { time: '2017-03-12 08:00', events: [] },
       {
-        day: 'Sunday',
-        time: ' 9:00 AM',
+        time: '2017-03-12 09:00',
         events: [
           {
             title: 'Breakfast',
@@ -138,13 +129,11 @@ export default class Schedule extends Component {
           },
           {
             title: 'Hacking Ends',
-            location: 'ECS',
           },
         ],
       },
       {
-        day: 'Sunday',
-        time: '10:00 AM',
+        time: '2017-03-12 10:00',
         events: [
           {
             title: 'Closing Ceremonies',
@@ -152,8 +141,8 @@ export default class Schedule extends Component {
           },
         ],
       },
-      { day: 'Sunday', time: '11:00 AM', events: [] },
-      { day: 'Sunday', time: '12:00 PM', events: [] },
+      { time: '2017-03-12 11:00', events: [] },
+      { time: '2017-03-12 12:00', events: [] },
     ];
     return (
       <section id="schedule">
@@ -163,17 +152,23 @@ export default class Schedule extends Component {
               <h2>Schedule</h2>
             </div>
             <div className="schedule column col-8 col-md-12">
-              { schedule.map((slot) => (slot.events.length > 0 ?
-                <div key={slot.day + slot.time} className="slot">
-                  <div className="time">{slot.time}</div>
-                  { slot.events.map((event) =>
-                    <div key={event.title} className="event">
-                      <span className="title">{event.title}</span>&nbsp;
-                      <span className="location">({event.location})</span>
+              { schedule.map((slot) => {
+                if (slot.events.length > 0) {
+                  const t = moment(slot.time);
+                  return (
+                    <div key={slot.time} className={classNames('slot', { active: moment().isSame(t, 'hour'), disabled: moment().isAfter(t, 'hour') })}>
+                      <div className="time">{t.format('h:mm A')}</div>
+                      { slot.events.map((event) =>
+                        <div key={event.title} className="event">
+                          <span className="title">{event.title}</span>&nbsp;
+                          { event.location ? <span className="location">({event.location})</span> : null }
+                        </div>
+                      )}
                     </div>
-                  )}
-                </div>
-              : null))}
+                  );
+                }
+                return null;
+              })}
             </div>
           </div>
         </div>
