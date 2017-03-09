@@ -41,9 +41,9 @@ export default class Prizes extends Component {
         icon: 'pen',
       },
       {
-        title: 'Clearest Presentation',
+        title: 'Best Hardware Hack',
         id: 'presentation',
-        icon: 'messages',
+        icon: 'cog-outline',
       },
     ];
     return (

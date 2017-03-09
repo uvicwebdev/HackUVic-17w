@@ -10,6 +10,8 @@ const icons = [
   'icons/calendar.svg',
   'icons/code.svg',
   'icons/code-outline.svg',
+  'icons/cog.svg',
+  'icons/cog-outline.svg',
   'icons/document.svg',
   'icons/download.svg',
   'icons/eject.svg',
