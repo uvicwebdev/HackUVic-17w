@@ -34,16 +34,14 @@ export default class Home extends Component {
         <main className="content" style={{ backgroundImage: `url(${Stars})` }}>
           <div className="container">
             <div className="columns">
-              <div className="column col-10">
+              <div className="column col-10 col-sm-8">
                 <Navbar />
-              </div>
-              <div className="column col-2">
-                <a id="mlh-trust-badge" href="https://mlh.io/seasons/na-2017/events?utm_source=na-2017&utm_medium=TrustBadge&utm_campaign=na-2017&utm_content=white" target="_blank" rel="noopener noreferrer">
-                  <img src={MLHBadge} alt="Major League Hacking 2017 Hackathon Season" />
-                </a>
               </div>
             </div>
           </div>
+          <a id="mlh-trust-badge" href="https://mlh.io/seasons/na-2017/events?utm_source=na-2017&utm_medium=TrustBadge&utm_campaign=na-2017&utm_content=white" target="_blank" rel="noopener noreferrer">
+            <img src={MLHBadge} alt="Major League Hacking 2017 Hackathon Season" />
+          </a>
           <div className="hero">
             <div>
               <h1>
@@ -62,8 +60,6 @@ export default class Home extends Component {
           {/* Sections */}
           <About />
           <Schedule />
-          <Judging />
-          <Prizes />
           <FAQ />
           <Sponsors />
           <Contact />
