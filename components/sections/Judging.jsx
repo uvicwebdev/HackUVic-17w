@@ -63,7 +63,7 @@ export default class Judging extends Component {
                 <small className="float-right">&nbsp;&frasl;<sub>5</sub></small>
               </h3>
               <p>
-                For bonus points, the judges will assign a score based on how beneficial they think the project will be to the broader Victoria community. 1 being the project would have a marginal impact, and 5 being the project has the potential to be used daily by many Victorians.
+                For bonus points, the judges will assign a score based on how beneficial they think the project will be to the broader  community. 1 being the project would have a marginal impact, and 5 being the project has the potential to be used daily by many people.
               </p>
             </div>
           </div>
