@@ -13,6 +13,7 @@ import Config from 'Config';
 
 import App from 'App';
 import Home from 'pages/Home';
+import Competition from 'pages/Competition';
 import PageNotFound from 'pages/PageNotFound';
 
 import ExampleComponent from 'pages/ExampleComponent';
@@ -29,6 +30,7 @@ ReactGA.initialize(Config.tracking_id);
 const routes = (
   <Route path="/" mapMenuTitle="Home" component={App}>
     <IndexRoute component={Home} />
+    <Route path="competition" mapMenuTitle="Competition" component={Competition} />
 
     <Route path="example" mapMenuTitle="Example" component={ExampleComponent}>
       <Route path="two-deep" mapMenuTitle="Two Deep" component={ExampleTwoDeepComponent} />

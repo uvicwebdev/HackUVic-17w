@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Icon from 'parts/Icon';
+import Navbar from 'parts/Navbar';
 
 import Logo from 'img/Logos/Logo_Type_Light.svg';
 import Stars from 'img/stars.svg';
@@ -31,9 +32,18 @@ export default class Home extends Component {
     return (
       <div className="home">
         <main className="content" style={{ backgroundImage: `url(${Stars})` }}>
-          <a id="mlh-trust-badge" href="https://mlh.io/seasons/na-2017/events?utm_source=na-2017&utm_medium=TrustBadge&utm_campaign=na-2017&utm_content=white" target="_blank" rel="noopener noreferrer">
-            <img src={MLHBadge} alt="Major League Hacking 2017 Hackathon Season" />
-          </a>
+          <div className="container">
+            <div className="columns">
+              <div className="column col-10">
+                <Navbar />
+              </div>
+              <div className="column col-2">
+                <a id="mlh-trust-badge" href="https://mlh.io/seasons/na-2017/events?utm_source=na-2017&utm_medium=TrustBadge&utm_campaign=na-2017&utm_content=white" target="_blank" rel="noopener noreferrer">
+                  <img src={MLHBadge} alt="Major League Hacking 2017 Hackathon Season" />
+                </a>
+              </div>
+            </div>
+          </div>
           <div className="hero">
             <div>
               <h1>

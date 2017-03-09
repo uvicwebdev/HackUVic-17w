@@ -54,8 +54,11 @@
 
     &.btn-link {
       color: @grey-white;
+      background: transparent;
+      border-color: transparent;
       &:hover {
-        color: @core-link-color;
+        color: lighten(@core-link-color, 60%);
+        background: fade(@grey-white, 20%);
       }
     }
   }
