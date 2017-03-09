@@ -66,7 +66,7 @@ export default class Schedule extends Component {
         time: '2017-03-11 15:00',
         events: [
           {
-            title: 'Git Workshop',
+            title: 'GitHub Pages Workshop',
             location: 'ECS 124',
           },
         ],
