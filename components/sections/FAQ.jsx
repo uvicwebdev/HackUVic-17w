@@ -14,8 +14,16 @@ export default class FAQ extends Component {
   render() {
     const questions = [
       {
-        question: 'Can I get travel reimbursement if I\'m out of province?',
-        answer: 'Sorry, but only BC residents can get travel reimbursements.',
+        question: 'Can I get travel reimbursement?',
+        answer: 'Unfortunately, this year we are unable to provide travel reimbursement.',
+      },
+      {
+        question: 'Is it okay if I arrive late?',
+        answer: 'Yep! If you\'re going to arrive after 10:00 AM on Saturday just give us a heads up.',
+      },
+      {
+        question: 'Can I start working on my project before the hackathon?',
+        answer: 'You can begin planning your project but we ask that all the implementation is done during the hackathon.',
       },
       {
         question: 'I\'ve never built a website or app before, can I still participate?',
