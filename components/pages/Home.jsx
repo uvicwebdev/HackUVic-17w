@@ -51,10 +51,6 @@ export default class Home extends Component {
                   March 11th and 12th at the University of Victoria
                 </small>
               </h1>
-              <br />
-              <a className="btn btn-hero btn-fat typeform-share" href="https://hackuvic.typeform.com/to/XCRqga" data-mode="1" target="_blank" rel="noopener noreferrer">
-                <Icon name="ticket" size={1.3} /> Register in 30 seconds
-              </a>
             </div>
           </div>
           {/* Sections */}
