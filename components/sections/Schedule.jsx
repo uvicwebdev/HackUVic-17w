@@ -92,7 +92,15 @@ export default class Schedule extends Component {
         ],
       },
       { time: '2017-03-11 20:00', events: [] },
-      { time: '2017-03-11 21:00', events: [] },
+      {
+        time: '2017-03-11 21:00',
+        events: [
+          {
+            title: 'Cup Stacking',
+            location: 'ECS 124',
+          },
+        ],
+      },
       { time: '2017-03-11 22:00', events: [] },
       { time: '2017-03-11 23:00', events: [] },
       {
@@ -105,15 +113,7 @@ export default class Schedule extends Component {
         ],
       },
       { time: '2017-03-12 01:00', events: [] },
-      {
-        time: '2017-03-12 02:00',
-        events: [
-          {
-            title: 'Cup Stacking',
-            location: 'ECS 124',
-          },
-        ],
-      },
+      { time: '2017-03-12 02:00', events: [] },
       { time: '2017-03-12 03:00', events: [] },
       { time: '2017-03-12 04:00', events: [] },
       { time: '2017-03-12 05:00', events: [] },
