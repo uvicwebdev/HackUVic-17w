@@ -25,7 +25,6 @@ export default class Navbar extends Component {
           </Link>
         </section>
         <section className="navbar-section">
-          <Link to="/Competition" className="btn btn-link">Competition</Link>
         </section>
       </header>
     );
