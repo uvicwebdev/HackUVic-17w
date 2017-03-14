@@ -48,15 +48,18 @@ export default class Home extends Component {
                 <img src={Logo} alt="HackUVic Logo" />
                 <br /><br />
                 <small>
-                  March 11th and 12th at the University of Victoria
+                  March 11th and 12th, 2017 at the University of Victoria
                 </small>
+                <br />
+                <br />
+                <a className="btn btn-hero btn-fat" href="https://hackuvic-17w.devpost.com/submissions" target="_blank" rel="noopener noreferrer">
+                  <Icon name="code-outline" size={1.3} /> See the projects on Devpost
+                </a>
               </h1>
             </div>
           </div>
           {/* Sections */}
           <About />
-          <Schedule />
-          <FAQ />
           <Sponsors />
           <Contact />
         </main>
