@@ -1,6 +1,6 @@
 # HackUVic Website
 
-[![Travis](https://img.shields.io/travis/uvicwebdev/HackUVic.svg)](https://travis-ci.org/uvicwebdev/HackUVic)
+[![Travis](https://img.shields.io/travis/uvicwebdev/HackUVic.svg)](https://travis-ci.org/uvicwebdev/HackUVic-17w)
 [![Website](https://img.shields.io/website-up-down-green-red/http/hackuvic.com.svg)](http://hackuvic.com/)
 
 The website for HackUVic.
